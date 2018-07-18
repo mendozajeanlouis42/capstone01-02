@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.cell{
+	border: 0.5px solid black;
+	/*margin-top: 0.5px;*/
+	/*text-align: center;*/
+}
+
+
+
+.cardgallery{
+  min-height: 190px;
+  width: 22rem;
+
+}
+
+
+
+
+
+.starter{
+  min-height: 210px;
+}
+
+.carouselsz{
+  max-height: 890px;
+  /*max-width: 100%;*/
+
+}
+
+.paraligned{
+      margin: auto;
+    /*width: 50%;*/
+    padding: 10px;
+}
+
+
+
+.row{
+    width: 100%;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/swordsman.jpg");
+
+    /* Set a specific height */
+    min-height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.knowdivider{
+	color: white;
+    top: 5px;
+    right: 15px;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 30%;
+
+    background-color: rgba(0, 0, 100, 0.5);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.49);
+
+}
+
+
+.photo-info{
+	height: 260px;
+	width: 260px;
+
+}
+
+
+/*personalized card size*/
+
+.mw18{
+
+max-width: 18rem;
+min-height: 100%;
+}
+
+
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+
+
+
+
+
+ /*Social Media Footers*/
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-square {
+  background: #3B5998;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.fa-twitter-square {
+  background: #55ACEE;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.fa-google-plus-square{
+  background: #dd4b39;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+
+
+
+/*about me*/
+
+
+
+.aboutme{
+    margin: 10px;
+}
+
+.me{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+
+.parme{
+    margin-top: 5px;
+}
+
+
+
+
+/*inspirations*/
+
+.imagenone{
+    height: 70px;
+    width: 70px;
+    float: left;
+    margin: 10px;
+}
+
+
+
+.rz{
+    height: 90px;
+    width: 190px;
+    float: left;
+    margin: 10px;
+}
+
+.leo{
+    padding-top: 20px;
+
+}
+
+
+
+
+/*join us*/
+
+
+.regtitle{
+    text-align: center;
+}
+
+
+.gameper{
+    margin-bottom: 30px;
+}
+
+.regimg{
+    float:right;
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] , input[type=email], select, input[type=date]{
+    /*width: 100%;*/
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    /*background: #f1f1f1;*/
+}
+
+
+/*privacy policy*/
+
+.privacy{
+    padding: 20px;
+}
+
+
+
+/*gallery*/
+.classes{
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+
+.imageg {
+  border-radius: 1%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.cardgallery:hover .imageg {
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+/*about*/
+
+.bouttext{
+  text-align: center;
+}
+
+
+/*gallery*/
+.classers{
+  margin: 10px;
+}
+
+
+
+
+
+
+body {
+  padding-top: 150px;
+}
+
+#global-nav {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  /*height: 140px;*/
+  width: 100%;
+  background: #0f1011;
+  color: #fff;
+  /*line-height: -150px;*/
+
+    -webkit-transition: height .5s, line-height .5s; /* Safari */
+    transition: height .5s, line-height .5s;
+
+}
+
+.site-title {
+  height: 120px;
+  width: 250px;
+  display: inline-block;
+  -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.scrolled-nav .site-title  {
+  font-size: 16px;
+  height: 50px;
+  width: 100px;
+}
+
+.nav-list {
+  list-style: none;
+  
+
+
+}
+
+.nav-list li {
+
+  list-style: none;
+  display: inline-block;
+  padding-left: 30px;
+  /*border: 2px solid red;*/
+  position: relative;
+  bottom:  85px;
+}
+
+
+
+
+
+
+.nav-item{
+  padding-right: 50px;
+}
+
+
+
+
+.scrolled-nav {
+  /*height: 70px !important;*/
+  /*line-height: 85px !important;*/
+  /*opacity: 0.5;*/
+
+}
+
+.scrolled-nav .nav-list li{
+  bottom: 55px;
+}
+
+
+
+.pull-right{
+  float:right;
+}
+
+
