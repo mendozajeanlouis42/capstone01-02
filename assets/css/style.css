@@ -18,7 +18,9 @@ html, body {
 	/*text-align: center;*/
 }
 
-
+.classinfo{
+  padding-right: 0px;
+}
 
 .cardgallery{
   min-height: 190px;
@@ -27,6 +29,18 @@ html, body {
 }
 
 
+
+.gallerycontain{
+  padding-right: 40px;
+}
+
+
+.topscroll{
+  position: fixed;
+  top: 60%;
+  left: 90%;
+  z-index: 30;
+}
 
 
 

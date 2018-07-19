@@ -22,60 +22,40 @@
 
 
 <body>
+  <!-- new Interactive navbar -->
+   <nav class="nav navbar navbar-expand-lg navbar-dark" id="global-nav">
+    <img src="assets/images/logo.png" class="site-title">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarNav">
 
+      <ul class="navbar-nav ml-auto">
 
+        <li class="nav-item">
+          <a class="nav-link navbarhov" href="index">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index#serverinfo">Server Info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="joinus.html">Join Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
 
-
-
-
-
-<!-- new Interactive navbar -->
-
- <nav class="nav navbar navbar-expand-lg navbar-dark" id="global-nav">
-  <img src="assets/images/logo.png" class="site-title">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNav">
-
-    <ul class="navbar-nav ml-auto">
-
-      <li class="nav-item">
-        <a class="nav-link navbarhov" href="index">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="aboutus.html">About us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="index#serverinfo">Server Info</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="joinus.html">Join Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="faq.html">FAQ</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="gallery.html">Gallery</a>
-      </li>
-
-    </ul>
-  </div>
-</nav>
-<!-- interactive navbar-->
-
-
-
-
-
-
-
-
-
-
-
+      </ul>
+    </div>
+  </nav>
+  <!-- interactive navbar-->
   <!-- Start Navbar -->
   <!--   <nav class="navbar navbar-expand-lg navbar-dark bg-dark gameper">
   <a class="navbar-brand" href="#">Company Logo/Text</a>
@@ -111,144 +91,81 @@
 </nav> -->
     <!-- End navbar -->
   <!-- main start -->
-
-
-  <div class="container alert alert-info"> 
+<div class="container alert alert-info"> 
 <h3 class="regtitle">Registration</h3>
 <hr>
 
-<div class="row">
-  <div class="col-md-3 ">
-    
-<form action="successreg.html">
+  <div class="row">
+    <div class="col-md-3 ">
+    <form action="successreg.html">
+      <h5>Game Account</h5>
+      <label for="username">Username: </label>
+      <input type="text" name="username" required>
+      <label for="password">Password: </label>
+      <input type="password" name="password" required>
+      <label for="cpassword">Confirm Password: </label>
+      <input type="text" name="cpassword" required>
+      <label for="email">Email Address: </label>
+      <input type="email" name="email" required>
+      <label for="securityquestion">Secret Question </label>
+      <select name="securityquestion" required>
+        <option value="childhoodname">What was your childhood nickname?</option>
+        <option value="favoritemovie">What is your favorite movie?</option>
+        <option value="petname">What is your First Pet's name?</option>
+        <option value="bestfriend">What is the name of your bestfriend?</option>
+      </select>
+      <label for="securityanswer">Security Answer: </label>
+      <input type="text" name="securityanswer" required>
+    </div>
+    <div class="col-md-3">
+        <h5>Personal Information</h5>
+        <label for="firstname">First Name: </label>
+        <input type="text" name="firstname" required>
+        <label for="lastname">Last Name: </label>
+        <input type="text" name="lastname" required>
+        <label for="birthdate">Birthdate: </label>
+        <input type="date" name="birthdate" required>
+        <p>By creating an account you agree to our <a href="termsandprivacy.html">Terms & Privacy</a></p>
+        <button type="submit" class="btn btn-light" value="submit">Submit</button>
+    </div>
+  </form>
 
-  <h5>Game Account</h5>
-  <label for="username">Username: </label>
-  <input type="text" name="username" required>
-
-  <label for="password">Password: </label>
-  <input type="password" name="password" required>
-
-  <label for="cpassword">Confirm Password: </label>
-  <input type="text" name="cpassword" required>
-
-  <label for="email">Email Address: </label>
-  <input type="email" name="email" required>
-
-  <label for="securityquestion">Secret Question </label>
-  <select name="securityquestion" required>
-    <option value="childhoodname">What was your childhood nickname?</option>
-    <option value="favoritemovie">What is your favorite movie?</option>
-    <option value="petname">What is your First Pet's name?</option>
-    <option value="bestfriend">What is the name of your bestfriend?</option>
-  </select>
-
-  <label for="securityanswer">Security Answer: </label>
-  <input type="text" name="securityanswer" required>
-
-
-
-
-
-
-  </div>
-<div class="col-md-3">
-<h5>Personal Information</h5>
-  <label for="firstname">First Name: </label>
-  <input type="text" name="firstname" required>
-  <label for="lastname">Last Name: </label>
-  <input type="text" name="lastname" required>
-  <label for="birthdate">Birthdate: </label>
-  <input type="date" name="birthdate" required>
-
-
-<p>By creating an account you agree to our <a href="termsandprivacy.html">Terms & Privacy</a></p>
-<button type="submit" class="btn btn-light" value="submit">Submit</button>
-
-
+  <div class="col-md-6">
+  <img src="assets/images/dlimg_RAN.png" class="regimg"></div> 
+  </div> <!-- end row -->
+</div>  <!-- end bluecontain -->
 </div>
 
-</form>
 
 
-<div class="col-md-6">
-<img src="assets/images/dlimg_RAN.png" class="regimg">
-
-
-
-
-  </div> 
-
-
-</div> <!-- end row -->
-
-
-
-
-
-
-
-
-</div>  <!-- end bluecontain -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer class="bg-secondary ">  
-
-  <div class="card">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-
-
-
-
-<div class="col-md-12"> 
-
-    <div class="row "> 
-       <div class="col-md-4"> 
-           <h5 class="card-title">Social Media</h5>
-
-        <a href="#" class="fab fa-facebook-square"></a>
-       <a href="#" class="fab fa-twitter-square"></a>
-        <a href="#" class="fab fa-google-plus-square"></a>
-
-       </div>
-       <div class="col-md-4">
-        <h5 class="card-title">Links</h5> 
-
-        <a href="index">Home</a> / 
-        <a href="aboutus.html">About us</a> / 
-        <a href="joinus.html">Join us</a> / 
-        <a href="faq.html">FAQ</a> / 
-        <a href="gallery.html">Gallery</a> /
-        <a href="termsandprivacy.html">Disclaimer & Privacy Policy</a> 
-       </div>
-       <div class="col-md-4">
+  <footer class="bg-secondary ">  
+    <div class="card">
+    <div class="card-header">Featured</div>
+    <div class="card-body">
+     <div class="col-md-12"> 
+      <div class="row "> 
+         <div class="col-md-4"> 
+            <h5 class="card-title">Social Media</h5>
+            <a href="#" class="fab fa-facebook-square"></a>
+            <a href="#" class="fab fa-twitter-square"></a>
+            <a href="#" class="fab fa-google-plus-square"></a>
+         </div>
+         <div class="col-md-4">
+          <h5 class="card-title">Links</h5> 
+          <a href="index">Home</a> / 
+          <a href="aboutus.html">About us</a> / 
+          <a href="joinus.html">Join us</a> / 
+          <a href="faq.html">FAQ</a> / 
+          <a href="gallery.html">Gallery</a> /
+          <a href="termsandprivacy.html">Disclaimer & Privacy Policy</a> 
+         </div>
+         <div class="col-md-4">
            <h5 class="card-title">Contact me</h5>
            <p><i class="fas fa-mobile-alt"></i> 0123456789</p>  
            <p><i class="fas fa-envelope-square"></i> myEmail.email.com</p> 
-         </div>
-    </div>
-   </footer>
+          </div>
+      </div>
+  </footer>
 
 
 
