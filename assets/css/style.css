@@ -258,7 +258,7 @@ input[type=text], input[type=password] , input[type=email], select, input[type=d
 
 /*gallery*/
 .classes{
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 
 }
